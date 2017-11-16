@@ -32,6 +32,7 @@
     <resource name="GS2_US.IMNNavigation.har" type="har" path="SERVER/G:/Tickets/jira/ticket 4986/GS2_US.IMNNavigation.har"/>
     <resource name="gs2.har" type="har" path="SERVER/G:/Tickets/jira/ticket 4986/gs2.har"/>
     <resource name="Apple_35_Steps.ds" type="ds" path="SERVER/G:/Tickets/jira/ticket 4986/Apple_35_Steps.ds"/>
+    <resource name="appleTest31Steps.ds" type="ds" path="{scenario}/appleTest31Steps.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -130,7 +131,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="har" resource="GS2_US.IMNNavigation.har"/>
+        <run name="Untitled1" langtype="ds" resource="appleTest31Steps.ds" testclass="Sahi" method="chrome"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
