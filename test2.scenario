@@ -26,7 +26,7 @@
     <creator/>
     <versions/>
     <categorization/>
-    <links/>
+    <links>    </links>
   </basics>
   <resources>
     <resource name="appleTest31Steps.ds" type="ds" path="{scenario}/appleTest31Steps.ds"/>
